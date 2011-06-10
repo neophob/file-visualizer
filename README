@@ -1,0 +1,23 @@
+info:
+-----
+a very basic file visualizer by Michael Vogt / neophob.com
+
+usage:
+------
+bash-3.2$ ./fwimage.sh
+fw image — binary visu­al­izer v0.5 — michu@neophob.com — http://www.neophob.com
+Usage:
+fwim­age if=IN_NAME of=OUT_FILE [x=SIZE] [mode=BW|RGB] [-nomarker] [-avg]
+Para­me­ter:
+if=INPUT_FILE
+of=OUTPUT_FILE, file for­mat is .png
+x=X_SIZE OF IMAGE, default is 1024
+mode=BW|RGB, BW: 1:1 map­ping, RGB: 1:3 map­ping, default is BW
+–nomarker, dis­able marker after 1mb of data
+–avg, use aver­age of INPUT_FILE as base
+
+Example: fwim­age if=myimage of=pic.png x=512 mode=RGB
+
+more information:
+-----------------
+check http://neophob.com/2010/01/firmware-visualizer-fwimage/ 
